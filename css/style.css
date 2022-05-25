@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+.contact, header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+    font-size: 13px;
+    align-items: center;
+    height: 30px;
+}
+
+.contact{
+     background-color: #000;
+      color: rgb(194, 193, 193);
+}
+
+header{
+     background-color: rgb(17, 17, 20);
+     color: #fff;
+     height: 80px;
+     position: sticky;
+     top: 0;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+.links{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.nav-links{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.active{
+    color: crimson;
+}
+
+
+.banner{
+    height: 550px;
+    background-color: rgb(161, 6, 102);
+    text-align: center;
+    padding-top: 150px;
+    line-height: 60px;
+    color: #fff;
+    background-image: linear-gradient( to right, rgba(248, 7, 188, 0.904), rgba(94, 1, 52, 0.924)),  url('../img/banner-man.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    font-weight : 900;
+}
+
+
+h3{
+    font-size: 25px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(235, 1, 110);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.outline{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+
+
+.about{
+    display: flex;
+    padding: 100px 250px;
+    justify-content: space-between;
+
+}
+.about-left, .about-right{
+    width: 48%;
+
+}
+.about-img{
+    width: 100%;
+}
+p{
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.title{
+    background-color: rgb(235, 1, 110);
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro-title{
+    font-size: 30px;
+    font-weight:600;
+    /* border-bottom: 4px solid crimson; */
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.title-style{
+    position: absolute;
+    padding: 2px;
+    width: 80px;
+    background-color: crimson;
+    bottom: 0;
+    left: 0;
+
+}
+.contact-info img{
+    width: 80px;
+}
+
+
+
+
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.services{
+    padding: 100px 250px;
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+}
+.bottom-box{
+    color: #fff
+}
+li a{
+    color: rgba(171, 170, 170, 0.668);
+}
+
+.box img{
+    width: 80px;
+}
+
+.box-container{
+    display: flex;
+
+}
+.box{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 50px 30px;
+    margin: 30px 20px 10px 0;
+    
+}
+
+.light{
+    background-color: rgb(235, 1, 110);
+}
+
+.services h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+}
+.portfolio{
+    padding: 100px 250px;
+}
+.portfolio-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+   
+}
+.intro-content{
+    width: 70%;
+}
+
+/* portfolio */
+.portfolio, .testimonial, .stat, .clients{
+    padding: 100px 250px;
+}
+.portfolio-container{
+    display: flex;
+    width: 100%;
+}
+.card{
+    width: 33%;
+    margin: 10px 20px 10px 0;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px 5px silver;
+}
+
+.testimonial{
+    background-color: rgb(141, 3, 60);
+    color: #fff;
+}
+.testimonial h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.user img{
+    width: 100px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    margin-right: 20px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+.user-title{
+    line-height: 2px;
+    padding-top: 50px;
+}
+
+.dot-container{
+    display: flex;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin: 10px 10px 10px 0;
+}
+
+.filled{
+    background-color: #fff;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.829)), url('../img/banner-man.jpg') ;
+    color: #fff;
+    background-position:  center center;
+    background-size: cover;
+    
+}
+
+.logos img{
+    width: 150px;
+}
+.logos{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(196, 2, 83);
+    padding: 50px 250px;
+    color: #fff;
+}
+.call-to-action a{
+    background-color: #fff;
+    padding: 10px 20px;
+    color: crisom;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    padding: 100px 250px;
+    justify-content: space-between;
+    list-style-type : circle;
+    background-color: #000;
+}
+.icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    color: red;
+    float: right;
+  }
+  p{
+      margin: 15px;
+  }
+  #link{
+      color: red;
+      text-decoration: none;
+  }
+  .fa-heart-o {
+      color:red;
+  }
+
+/* .intro-title::after{
+    content: " ";
+    width: 200px;
+    background-color: red;
+    padding: 5px;
+} */
+
+
+@media  screen and (max-width: 1024px){
+    .contact{
+        padding: 0;
+        /* display: flex;
+        height: 80px;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: center;
+        line-height: 5px; */
+    }
+    header{
+        flex-direction: column;
+    }
+    .about{
+        padding: 0;
+    }
+    .about-left, .about-right{
+        margin: 10px;
+    }
+    .title{
+        padding: 5px 22px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    p{
+       font-size: 16px;
+    }
+    .services{
+        padding: 0;
+    }
+    h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+.box-container{
+    display: grid;
+    margin: 2rem;
+}
+.portfolio, .testimonial, .stat, .clients{
+    padding: 20px;
+}
+.intro-content{
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.testimonial h1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.logos img{
+    width: 300px;
+    margin: 35px;
+}
+.call-to-action{
+    padding: 3rem;
+}
+footer{
+    display: grid;
+    
+    font-size: 20px;
+    line-height: 50px;
+}
+
+    
+}
+@media(max-width: 600px){
+    .contact{
+        padding: 0;
+        /* display: flex;
+        height: 80px;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: center;
+        line-height: 5px; */
+    }
+    header{
+        flex-direction: column;
+    }
+    .about{
+        padding: 0;
+    }
+    .about-left, .about-right{
+        margin: 10px;
+    }
+    .title{
+        padding: 5px 22px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    p{
+       font-size: 16px;
+    }
+    .services{
+        padding: 0;
+    }
+    h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+.box-container{
+    display: grid;
+    margin: 2rem;
+}
+.portfolio, .testimonial, .stat, .clients{
+    padding: 20px;
+}
+.intro-content{
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.testimonial h1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.logos img{
+    width: 300px;
+    margin: 35px;
+}
+.call-to-action{
+    padding: 3rem;
+}
+footer{
+    display: grid;
+    
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+    
+    
+}
